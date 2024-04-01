@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Single Post Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="create.html">Create a post</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="singlepostpage.html">View the Latest Post</a>
+                </li>
+
+
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search Recipe" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <form class="d-flex" role="search">
+                <a href="login.html" class="btn btn-outline-success" tabindex="-1" role="button">Log in/Sign in</a>
+            </form>
+        </div>
+    </div>
+</nav>
+<section id="post-details">
+  <h2>Baked Tortellini with Sausage</h2>
+  <section id="post-details1">
+    <span class="author">Post by: Lindsay</span> |
+    <time datetime="2024-03-31">March 30, 2024</time>
+      <div class="headInfo_item"><span class="headInfo_itemIcon"><span color="text.default" class="css-11qxqh7"><svg class="css-82n8sf" focusable="false" viewBox="0 0 32 32" color="text.default" aria-hidden="true"><path d="M20.034 15.876c1.079 0 2.264-.59 3.334-1.66 1.815-1.815 2.14-3.912.856-5.213a2.658 2.658 0 00-1.921-.788c-1.083 0-2.26.582-3.317 1.644-1.55 1.549-2.025 3.3-1.331 4.592l-1.935 1.934-2.41-2.41 1.045-1.044a.642.642 0 000-.907l-3.852-3.852a.642.642 0 00-.907.908l3.398 3.398-.59.59L8.79 9.456a.642.642 0 00-.907.908l3.612 3.612-.59.59-3.827-3.826a.642.642 0 00-.907.908l4.28 4.28c.25.25.656.25.907 0l1.044-1.045 2.41 2.41-5.136 5.135a.642.642 0 10.908.908L15.72 18.2l5.03 5.029a.642.642 0 10.906-.908l-5.028-5.028 1.878-1.88c.45.308.984.47 1.528.463zm-.14-5.11c.774-.775 1.66-1.284 2.409-1.284.382-.004.75.151 1.014.428.856.856.312 2.225-.856 3.398-.779.779-1.673 1.284-2.427 1.284a1.361 1.361 0 01-.997-.402c-.834-.856-.312-2.256.856-3.424z" fill="#141313"></path></svg></span></span><span class="headInfo_itemLabel">6 people</span></div>
+      <div class="headInfo_item"><span class="headInfo_itemIcon"><span color="text.default" class="css-11qxqh7"><svg class="css-82n8sf" focusable="false" viewBox="0 0 32 32" color="text.default" aria-hidden="true"><path d="M16 7a9 9 0 100 18 9 9 0 000-18zm0 16.773a7.773 7.773 0 11-.001-15.546 7.773 7.773 0 010 15.546z" fill="#141313"></path><path d="M20.09 15.59H16.41v-4.5a.614.614 0 10-1.227 0v5.728h4.909a.614.614 0 000-1.227z" fill="#141313"></path></svg></span></span><span class="headInfo_itemLabel">45 minutes</span></div>
+      <img id="BakedTortellini" src="Baked-Tortellini-1-scaled-e1708701729683-840x1200.webp">
+      <p id="this_bakedtortellini">This Baked Tortellini with a sausagey tomato sauce is pretty basic but it’s ohhhh so good. It’s my comfort food weakness right now. Highly recommend dunking in there with some buttery garlic bread!</p>
+
+      <section class="container text-center">
+          <div class="row">
+              <div class="col">
+                  <span id="INGREDIENTS">INGREDIENTS</span>
+                  <ul class="list-group">
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 tablespoon avocado or olive oil
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 lb. ground Italian sausage (I use a mild one for my kids, but spicy would be delicious)
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          2–3 carrots, chopped
+                          <span class="badge text-bg-primary rounded-pill">2-3</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          2–3 stalks of celery, chopped
+                          <span class="badge text-bg-primary rounded-pill">2-3</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 yellow onion, minced
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          3 large cloves garlic, minced
+                          <span class="badge text-bg-primary rounded-pill">3</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 teaspoon fennel seeds, crushed
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 teaspoon fennel seeds, crushed
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 can of San Marzano tomatoes
+                          <span class="badge text-bg-primary rounded-pill">1</span>
+                      </li>
+
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          10–15 ounces of refrigerated cheese tortellini
+                          <span class="badge text-bg-primary rounded-pill">10-15</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                          1 1/2 – 2 cups chicken broth
+                          <span class="badge text-bg-primary rounded-pill">2</span>
+                      </li>
+
+
+                  </ul>
+              </div>
+              <div class="col">
+                  <span id="INSTRUCTIONS">INSTRUCTIONS</span>
+                  <article id="steps">
+                      <ol>
+                          <li>
+                              <b>Brown the sausage:</b> Heat a very large oven-safe skillet over medium high heat.
+                              Add the oil and the sausage; break apart with a wooden spoon and brown until it’s got some nice color.
+                              Transfer to a bowl and drain out any of the oil that you don’t want (I usually drain off about a tablespoon, leaving a tablespoon in the pan).
+
+                          </li>
+
+                          <li>
+                              <b>Sauté the veggies:</b> If you’ve got some browning on the bottom of your pan – great.
+                              Add the veggies and they should start to pull up some of that yummy brown flavor.
+                              Add the fennel seeds. Cook until the veggies are fragrant and soft – you can add a bit of salt or oil if you’re feeling chefy.
+                              Then add the sausage back in.
+
+                          </li>
+                          <li>
+                              <b>Add everything else:</b> Add your tomato sauce, your tortellini, and 1 cup of broth.
+                              The pan will be full.
+                              Let it come to a low simmer and cook for 5 minutes or so to cook the tortellini.
+                              If you need more liquid to cook the tortellini, go ahead and add some or all of the remaining broth.
+                              Sometimes I just pop a lid on and leave it for a while on low heat.
+                          </li>
+                          <li>
+                              <b>Spinach and cheese:</b> Give it a taste – if you used canned tomatoes instead of a jar of sauce, it will probably need some salt.
+                              Add the spinach and stir it in until it wilts.
+                              Top the whole thing with the mozzarella cheese and pop it into the oven at 375 for 8-10 minutes, or until the cheese is nice and melty.
+                          </li>
+
+                          <li>
+                              <b>Finish:</b> Sprinkle some grated parm on top along with some chopped parsley, and dunk into that baby with some chunks of garlic bread.
+                              SO GOOD.
+                          </li>
+                      </ol>
+                  </article>
+
+              </div>
+
+          </div>
+      </section>
+
+
+      <div id="respond" class="comment-respond">
+          <h3 id="reply-title" class="comment-reply-title">Leave a Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="/baked-tortellini-with-sausage#respond" style="display:none;">Cancel reply</a></small></h3><form action="https://pinchofyum.com/wp-comments-post.php?wpe-comment-post=pinchofyum" method="post" id="commentform" class="comment-form" novalidate=""><p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span></p> <fieldset class="tasty-recipes-ratings tasty-recipes-comment-form">
+          <legend>Recipe rating</legend>
+          <span class="tasty-recipes-ratings-buttons "> <input aria-label="Rate this recipe 5 stars" type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="5"> <span class="tasty-recipes-rating"> <i class="checked" data-rating="5"> ★ <span class="tasty-recipes-screen-reader"> 5 Stars </span> </i> <i class="unchecked">☆</i> </span> <input aria-label="Rate this recipe 4 stars" type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="4"> <span class="tasty-recipes-rating"> <i class="checked" data-rating="4"> ★ <span class="tasty-recipes-screen-reader"> 4 Stars </span> </i> <i class="unchecked">☆</i> </span> <input aria-label="Rate this recipe 3 stars" type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="3"> <span class="tasty-recipes-rating"> <i class="checked" data-rating="3"> ★ <span class="tasty-recipes-screen-reader"> 3 Stars </span> </i> <i class="unchecked">☆</i> </span> <input aria-label="Rate this recipe 2 stars" type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="2"> <span class="tasty-recipes-rating"> <i class="checked" data-rating="2"> ★ <span class="tasty-recipes-screen-reader"> 2 Stars </span> </i> <i class="unchecked">☆</i> </span> <input aria-label="Rate this recipe 1 star" type="radio" name="tasty-recipes-rating" class="tasty-recipes-rating" value="1"> <span class="tasty-recipes-rating"> <i class="checked" data-rating="1"> ★ <span class="tasty-recipes-screen-reader"> 1 Star </span> </i> <i class="unchecked">☆</i> </span></span> </fieldset>
+          <p class="comment-form-comment"><label for="comment">Comment <span class="required">*</span></label> <br> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" required=""></textarea></p><p class="comment-form-author"><label for="author">Name <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" maxlength="245" autocomplete="name" required=""></p>
+          <p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" maxlength="100" aria-describedby="email-notes" autocomplete="email" required=""></p>
+          <p class="comment-form-url"><label for="url">Website</label> <input id="url" name="url" type="url" value="" size="30" maxlength="200" autocomplete="url"></p>
+          <p class="comment-form-email-signup">
+              <input id="poy_comment_email_signup" name="poy_comment_email_signup" type="checkbox" value="1"><label for="poy_comment_email_signup">Sign me up for recipes, please!<br>All the food, right to your inbox (and a FREE ecookbook, too!).</label>
+          </p>
+          <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Post Comment"> <input type="hidden" name="comment_post_ID" value="95403" id="comment_post_ID">
+              <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+          </p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="4cbb667c4a"></p><p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>Δ<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="1711926580343"><script>document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form> </div>
+
+
+  </section>
+
+
+</section>
+
+
+
+
+<footer>
+    <p>&copy; 2024 Food Blog. All rights reserved.</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
